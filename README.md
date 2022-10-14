@@ -122,3 +122,36 @@ untuk mengatur border width.
 <table border="1" cellpadding="4" cellspacing="0">
 ```         
 
+## Menggabungkan Sel Data
+
+Setiap sel data pada table bisa digabungkan baik itu digabungkan secara horizontal dengan memakai         
+atribut `colspan` maupun digabungkan secara vertikal dengan memakai atribut `rowspan`. Seperti ini :        
+
+```bash
+<table border="1" cellpadding="6" cellspacing="0">
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Fakultas</th>
+            <th>Program Studi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td rowspan="3">Teknik</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Teknik Industri</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Teknik Lingkungan</td>
+        </tr>
+    </tbody>
+</table>
+```         
+
+![Gambar 5](Screenshoots/Capture5.PNG)       
