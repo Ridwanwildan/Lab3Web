@@ -110,3 +110,15 @@ Selanjutnya ada tag `<tr>` yang digunakan untuk membuat kolom, dan ada juga tag 
 ```         
 
 ![Gambar 4](Screenshoots/Capture4.PNG)       
+
+## Menambahkan Margin dan Padding
+
+Menambahkan margin dan padding artinya menambahkan space pada tabel. Margin dan padding ditambahkan supaya        
+tabel terlihat lebih luas dan ukurannya sesuai. Cara menambahkan margin dan padding adalah dengan menambahkan      
+atribut `cellpadding` untuk padding, dan `cellspacing` untuk margin. Sedangkan atribut `border` digunakan     
+untuk mengatur border width.        
+
+```bash
+<table border="1" cellpadding="4" cellspacing="0">
+```         
+
