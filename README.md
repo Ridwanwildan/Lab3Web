@@ -31,3 +31,22 @@ ada angkanya.
 ```         
 
 ![Gambar 1](Screenshoots/Capture1.PNG)       
+
+## Membuat Unordered List
+
+Unordered list adalah list tetapi tanpa adanya angka seperti ordered list, untuk membuatnya adalah         
+dengan menambahkan tag `<ul>` dan didalamnya ditambahkan tag `<li>`. Nantinya list akan ditandai dengan     
+tanda dot.               
+
+```bash
+<section id="unorder-list">
+    <h2>Unordered List</h2>
+    <ul type="square">
+        <li>Jaringan Komputer</li>
+        <li>Struktur Data</li>
+        <li>Algoritma &amp; Pemrograman</li>
+    </ul>
+</section>
+```         
+
+![Gambar 2](Screenshoots/Capture2.PNG)       
