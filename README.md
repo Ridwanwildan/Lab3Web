@@ -73,3 +73,40 @@ dan juga `<dd>`.
 ```         
 
 ![Gambar 3](Screenshoots/Capture3.PNG)       
+
+## Membuat Tabel
+
+Tabel pada HTML bisa ditambahkan cukup mudah. Caranya dengan menambahkan tag `<table>` dan        
+didalamnya ditambahkan tag `<thead>` sebagai kolom yang paling atas dan `<tbody>` sebagai kolom dibawahnya.       
+Selanjutnya ada tag `<tr>` yang digunakan untuk membuat kolom, dan ada juga tag `<td>` untuk setiap cellnya.       
+
+```bash
+<table border="1" cellpadding="4" cellspacing="0">
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Fakultas</th>
+            <th>Program Studi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>Teknik</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Teknik</td>
+            <td>Teknik Industri</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Teknik</td>
+            <td>Teknik Lingkungan</td>
+        </tr>
+    </tbody>
+</table>
+```         
+
+![Gambar 4](Screenshoots/Capture4.PNG)       
