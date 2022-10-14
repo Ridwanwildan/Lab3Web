@@ -50,3 +50,26 @@ tanda dot.
 ```         
 
 ![Gambar 2](Screenshoots/Capture2.PNG)       
+
+## Membuat Description List
+
+Untuk membuat description list caranya adalah menambahkan tag `<dl>` kemudian didalamnya tambahkan tag `<dt>`       
+dan juga `<dd>`.               
+
+```bash
+<section id="unorder-list">
+    <h2>Description List</h2>
+    <dl>
+        <dt>Fakultas Teknik</dt>
+        <dd>Teknik Industri</dd>
+        <dd>Teknik Informatika</dd>
+        <dd>Teknik Lingkungan</dd>
+        <dt>Fakultas Ekonomi dan Bisnis</dt>
+        <dd>Akuntansi</dd>
+        <dd>Manajemen</dd>
+        <dd>Bisnis Digital</dd>
+    </dl>
+</section>
+```         
+
+![Gambar 3](Screenshoots/Capture3.PNG)       
