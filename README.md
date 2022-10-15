@@ -229,6 +229,6 @@ form input[type="submit"] {
 ## Pertanyaan dan Tugas
 
 Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection            
-[Contoh Form dengan dropdown dan listbox multiple selection](https://code.visualstudio.com/)             
+[Contoh Form dengan dropdown dan listbox multiple selection](https://github.com/Ridwanwildan/Lab3Web/blob/main/tugas.html)             
 
 ![Gambar 8](Screenshoots/Capture8.PNG)       
