@@ -155,3 +155,37 @@ atribut `colspan` maupun digabungkan secara vertikal dengan memakai atribut `row
 ```         
 
 ![Gambar 5](Screenshoots/Capture5.PNG)       
+
+# Menambahkan Form
+
+Untuk menambahkan form, perlu ditambahkan beberapa tag seperti `<form>`, `<fieldset>`, `<label>`,            
+`<input>`, dan `<textarea>`. Kemudian supaya value seperti nama, alamat, dan lain sebagainya bisa tersimpan      
+kedalam database, maka perlu ditambahkan atribut `action` dan `method` didalam tag `<form>`.           
+
+```bash
+<form action="proses.php" method="post">
+    <fieldset>
+        <legend>Data Pelanggan</legend>
+        <p>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama">
+        </p>
+        <p>
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+        </p>
+        <p>
+            <label>Jenis Kelamin</label>
+            <input id="jk_l" type="radio" name="kelamin" value="L" />
+            <label for="jk_l">Laki-laki</label>
+            <input id="jk_p" type="radio" name="kelamin" value="P" />
+            <label for="jk_p">Perempuan</label>
+        </p>
+        <p>
+            <input type="submit" value="Login">
+        </p>
+    </fieldset>
+</form>
+```         
+
+![Gambar 6](Screenshoots/Capture6.PNG)       
