@@ -7,6 +7,17 @@
 
 Dalam latihan menggunakan CSS ini, saya menggunakan [Google Chrome](https://www.google.com/intl/id_id/chrome/) sebagai web browser dan [visual studio code](https://code.visualstudio.com/) sebagai teks editornya.     
 
+Daftar isi :          
+* [Membuat Ordered List](https://github.com/Ridwanwildan/Lab3Web#membuat-ordered-list)         
+* [Membuat Unordered List](https://github.com/Ridwanwildan/Lab3Web#membuat-unordered-list)         
+* [Membuat Description List](https://github.com/Ridwanwildan/Lab3Web#membuat-description-list)         
+* [Membuat Tabel](https://github.com/Ridwanwildan/Lab3Web#membuat-tabel)         
+* [Menambahkan Margin dan Padding](https://github.com/Ridwanwildan/Lab3Web#menambahkan-margin-dan-padding)         
+* [Menggabungkan Sel Data](https://github.com/Ridwanwildan/Lab3Web#menggabungkan-sel-data)         
+* [Menambahkan Form](https://github.com/Ridwanwildan/Lab3Web#menambahkan-form)         
+* [Menambahkan Style pada Form](https://github.com/Ridwanwildan/Lab3Web#menambahkan-style-pada-form)         
+* [Pertanyaan dan Tugas](https://github.com/Ridwanwildan/Lab3Web#pertanyaan-dan-tugas)         
+
 ## Membuat Ordered List
 
 Pertama adalah membuat list, untuk membuat list caranya adalah dengan membuat tag `<ol>`         
@@ -156,7 +167,7 @@ atribut `colspan` maupun digabungkan secara vertikal dengan memakai atribut `row
 
 ![Gambar 5](Screenshoots/Capture5.PNG)       
 
-# Menambahkan Form
+## Menambahkan Form
 
 Untuk menambahkan form, perlu ditambahkan beberapa tag seperti `<form>`, `<fieldset>`, `<label>`,            
 `<input>`, dan `<textarea>`. Kemudian supaya value seperti nama, alamat, dan lain sebagainya bisa tersimpan      
@@ -218,4 +229,6 @@ form input[type="submit"] {
 ## Pertanyaan dan Tugas
 
 Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection            
-[Contoh Form dengan dropdown dan listbox multiple selection](https://code.visualstudio.com/)                
+[Contoh Form dengan dropdown dan listbox multiple selection](https://code.visualstudio.com/)             
+
+![Gambar 8](Screenshoots/Capture8.PNG)       
