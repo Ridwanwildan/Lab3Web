@@ -212,3 +212,10 @@ form input[type="submit"] {
 }
 </style>
 ```         
+
+![Gambar 7](Screenshoots/Capture7.PNG)       
+
+## Pertanyaan dan Tugas
+
+Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection            
+[Contoh Form dengan dropdown dan listbox multiple selection](https://code.visualstudio.com/)                
